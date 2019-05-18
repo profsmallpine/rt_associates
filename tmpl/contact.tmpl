@@ -1,0 +1,42 @@
+{{ define "pageContent" }}
+<div id="content" class="site-content">
+  <div class="content-right">
+    <div class="content-right-holder center-relative content-1170">
+      <p class="title-description-up">STAY CONNECTED</p>
+      <h1 class="entry-title big-text">Say Hi.</h1>
+
+      <div class="one_half">
+        <p>
+          Got something on your mind?<br>
+          Wondering if I can move you forward?<br>
+          She who hesitates is lost.
+        </p>
+        <br>
+        {{ template "myInfo" . }}
+      </div>
+
+      <div class="one_half last cfh">
+        <div class="contact-form">
+          <p>
+            <input id="name" type="text" name="your-name" placeholder="Name">
+          </p>
+          <p>
+            <input id="contact-email" type="email" name="your-email" placeholder="Email">
+          </p>
+          <p>
+            <input id="subject" type="text" name="your-subject" placeholder="Subject">
+          </p>
+          <p>
+            <textarea id="message" name="your-message" placeholder="Message"></textarea>
+          </p>
+          <p class="contact-submit-holder">
+            <input type="submit" value="SEND">
+          </p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+{{ end }}
