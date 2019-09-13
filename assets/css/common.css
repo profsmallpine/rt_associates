@@ -62,7 +62,7 @@
     position: relative;
 }
 
-.margin-0, 
+.margin-0,
 .margin-0 img {
     margin: 0 !important;
     line-height: 0;
@@ -73,15 +73,15 @@
 }
 
 .top-5 {
-    margin-top: 5px !important;	
+    margin-top: 5px !important;
 }
- 
+
 .top-10 {
-    margin-top: 10px;	
+    margin-top: 10px;
 }
 
 .top-15 {
-    margin-top: 15px;	
+    margin-top: 15px;
 }
 
 .top-20 {
@@ -89,27 +89,27 @@
 }
 
 .top-25 {
-    margin-top: 25px;	
+    margin-top: 25px;
 }
 
 .top-30 {
-    margin-top: 30px;	
+    margin-top: 30px;
 }
 
 .top-50 {
-    margin-top: 50px;	
+    margin-top: 50px;
 }
 
 .top-60 {
-    margin-top: 60px;	
+    margin-top: 60px;
 }
 
 .top-70 {
-    margin-top: 70px;	
+    margin-top: 70px;
 }
 
 .top-75 {
-    margin-top: 75px;	
+    margin-top: 75px;
 }
 
 .top-80 {
@@ -117,11 +117,11 @@
 }
 
 .top-100 {
-    margin-top: 100px;	
+    margin-top: 100px;
 }
 
 .top-105 {
-    margin-top: 105px;	
+    margin-top: 105px;
 }
 
 .top-120 {
@@ -129,11 +129,11 @@
 }
 
 .top-150 {
-    margin-top: 150px;	
+    margin-top: 150px;
 }
 
 .top-200 {
-    margin-top: 200px;	
+    margin-top: 200px;
 }
 
 .top-negative-30 {
@@ -222,7 +222,7 @@ blockquote:before {
     left: 0;
     top: calc(50% - 70px);
     position: absolute;
-    background-image: url(../images/quotes_image.png);
+    background-image: url(../img/quotes_image.png);
     background-size: cover;
     width: 140px;
     height: 110px;
@@ -251,36 +251,36 @@ h2,
 h3,
 h4,
 h5,
-h6{    
+h6{
     padding: 20px 0;
     color: #000;
 }
 
 h1 {
     font-size: 38px;
-    line-height: 38px;    
+    line-height: 38px;
 }
 
 h2 {
-    font-size: 34px;    
-    line-height: 34px;    
+    font-size: 34px;
+    line-height: 34px;
 }
 
 h3 {
-    font-size: 32px;  
-    line-height: 32px;    
+    font-size: 32px;
+    line-height: 32px;
 }
 
 h4 {
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 h5 {
-    font-size: 28px;   
+    font-size: 28px;
 }
 
 h6 {
-    font-size: 26px;    
+    font-size: 26px;
 }
 
 em {
@@ -296,8 +296,8 @@ pre {
     white-space: pre-wrap;
 }
 
-table, 
-th, 
+table,
+th,
 td {
     border:1px solid black;
     padding: 10px;
@@ -327,11 +327,11 @@ sub {
 }
 
 /* COLUMNS */
-.one,  
-.one_half,  
-.one_third,  
-.two_third,  
-.three_fourth, 
+.one,
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
 .one_fourth {
     margin-right: 8%;
     float: left;
@@ -351,15 +351,15 @@ sub {
 }
 
 .one_half {
-    width: 46%;    
+    width: 46%;
 }
 
 .one_third {
-    width: 28%;    
+    width: 28%;
 }
 
 .two_third {
-    width: 64%;    
+    width: 64%;
 }
 
 .one_fourth {
@@ -381,7 +381,7 @@ div.pp_default .pp_loaderIcon {
 
 div.pp_default a.pp_arrow_previous {
     background-image: url(../images/nav_left.png);
-    background-size: 20px 20px;    
+    background-size: 20px 20px;
     width: 20px;
     height: 20px;
     margin-top: 5px;
@@ -393,7 +393,7 @@ div.pp_default a.pp_arrow_previous {
 
 div.pp_default a.pp_arrow_next {
     background-image: url(../images/nav_right.png);
-    background-size: 20px 20px;    
+    background-size: 20px 20px;
     width: 20px;
     height: 20px;
     margin-top: 5px;
@@ -418,7 +418,7 @@ div.pp_default .pp_close {
     margin-top: 5px;
     text-indent: -99999999px;
     font-size: 0;
-    line-height: 0;    
+    line-height: 0;
 }
 
 div.pp_default .pp_next:hover {
@@ -434,7 +434,7 @@ div.pp_default .pp_previous:hover {
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: 5% 50%;
-    background-size: 20px;    
+    background-size: 20px;
 }
 
 div.pp_default .pp_nav .currentTextHolder {

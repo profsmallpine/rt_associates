@@ -1,54 +1,57 @@
 {{ define "pageContent" }}
 <div id="content" class="site-content">
   <div class="content-right">
-    <div class="page-split-left">
-      <p class="title-description-up">THAT'S ME</p>
-      <h1 class="entry-title big-text">
-        Rose <br>
-        Timmer
-      </h1>
-      <p>
-        When I was 16, my father opened a dry food repack line and I
-        worked in the office. It was the most unconventional job I had
-        ever had but I learned a lot about payroll, employees and covering
-        your ass. I also learned that food was an interesting business
-        that I wanted to know more about.
-      </p>
-      <p>
-        Fast forward to college where I did copious amounts of data entry
-        and booked last minute travel for my father whose schedule changed
-        so frequently, planning was difficult.
-      </p>
-      <p>
-        When I finally went to work for him full time I learned the
-        business by being him when he traveled. Between his appointments,
-        I read his emails to him, typed his dictated responses (before
-        dictation was available) and kept track of the follow up items
-        required for each email. I was able to get an intricate
-        understanding of the interworking of the business which was a
-        remarkable base for where I am today.
-      </p>
-      <p>
-        I’m grateful to my father for the tools he’s given me to become
-        successful in an industry that is very challenging. He always told
-        people that he was not a salesperson, just trying to help his
-        customers with the right solution for their business and that’s
-        the way I see myself now as well. I seek to be a resource to my
-        customers in an industry that is relatively unfamiliar to most
-        with a product that is constantly changing and getting better. If
-        I can educate my customers, they can better apply my product to
-        theirs and make better decisions for themselves.
-      </p>
-      <p>
-        <img class="img-right" src="/assets/img/signature_image.png" alt="" />
-      </p>
-      {{ template "myInfo" . }}
-    </div>
+    <div class="horizontal-slider image-slider-wrapper relative">
+      <div class="swiper-wrapper image-slider slider">
 
-    <div class="page-split-right" data-background="/assets/img/selfie.jpg">
-      <img class="split-image" src="assets/img/selfie.jpg" alt="" />
-    </div>
+        <div class="swiper-slide text-slide">
+          <div class="carousel-item-text">
+            <p class="title-description-up">KICKING ASS</p>
+            <h1 class="entry-title big-text">Rose Timmer &amp; Associates</h1>
+            <div class="carousel-content">
+              Kicking ass and taking names. We've been crafting solutions that
+              deliver improved margins and better yields since 1977 for the food
+              industry. Learn more about who we are and why our customer loyalty
+              is matched by none.
+            </div>
+          </div>
+        </div>
 
+        <div class="swiper-slide">
+          <div class="carousel-item-image">
+            <a href="/portfolio-rose" class="img-thumb">
+              <img src="/assets/img/0046.jpg" alt="">
+            </a>
+            <div class="carousel-item-info">
+              <h2>
+                <a href="/portfolio-rose">Rose Timmer</a>
+              </h2>
+            </div>
+            <p class="post-num">
+              <span>01</span>
+              <span class="total-num">02</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="carousel-item-image">
+            <a href="/portfolio-jim" class="img-thumb">
+              <img src="/assets/img/IMG_0988.jpg" alt="">
+            </a>
+            <div class="carousel-item-info">
+              <h2>
+                <a href="/portfolio-jim">Jim Timmer</a>
+              </h2>
+            </div>
+            <p class="post-num">
+              <span>02</span>
+              <span class="total-num">02</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="clear"></div>
 </div>

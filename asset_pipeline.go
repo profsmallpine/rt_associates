@@ -52,7 +52,7 @@ func minifyConcat(assets *[]string, mimetype, location string) bool {
 	m := minify.New()
 	m.AddFunc("text/css", css.Minify)
 	m.AddFunc("text/javascript", js.Minify)
-	m.Minify(mimetype, w, r)
+	m.Minify(mimetype, w, r) // nolint
 	for _, ar := range ars {
 		ar.(io.ReadCloser).Close()
 	}
