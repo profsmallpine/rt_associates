@@ -16,12 +16,6 @@ const (
 	stylesheetTagHTML = `<link type="text/css" rel="stylesheet" href="/%s">`
 )
 
-// AssetHelperFuncs is package var to pass to static HTML
-var assetHelperFuncs = template.FuncMap{
-	"javascriptTag": javascriptTag,
-	"stylesheetTag": stylesheetTag,
-}
-
 // javascriptTag returns html with script tags for all files from assets.go in
 // development and a single bundle file outside of development.
 func javascriptTag() template.HTML {
