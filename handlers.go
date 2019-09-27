@@ -19,10 +19,10 @@ func (h *handler) goHome(w http.ResponseWriter, r *http.Request) {
 }
 
 // contact is used for handling requests to "/contact".
-func (h *handler) contact(w http.ResponseWriter, r *http.Request) {
-	data := map[string]interface{}{"bodyClass": "page-template-default"}
-	respond(h.Logger, w, r, "./tmpl/contact.tmpl", data)
-}
+// func (h *handler) contact(w http.ResponseWriter, r *http.Request) {
+// 	data := map[string]interface{}{"bodyClass": "page-template-default"}
+// 	respond(h.Logger, w, r, "./tmpl/contact.tmpl", data)
+// }
 
 // portfolioRose is used for handling requests to "/portfolio-rose".
 func (h *handler) portfolioRose(w http.ResponseWriter, r *http.Request) {

@@ -24,7 +24,7 @@ func buildRoutes(h handler) *httprouter.Router {
 	router := httprouter.New()
 	routes := []route{
 		route{path: "/", method: http.MethodGet, handler: h.goHome},
-		route{path: "/contact", method: http.MethodGet, handler: h.contact},
+		// route{path: "/contact", method: http.MethodGet, handler: h.contact},
 		route{path: "/portfolio-rose", method: http.MethodGet, handler: h.portfolioRose},
 		route{path: "/portfolio-jim", method: http.MethodGet, handler: h.portfolioJim},
 	}
