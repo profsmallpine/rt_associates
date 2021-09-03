@@ -159,7 +159,7 @@ var javascripts = []string{
 	"assets/js/jquery.smartmenus.min.js",
 	"assets/js/jquery.prettyPhoto.js",
 	"assets/js/jquery.sticky-kit.min.js",
-	"assets/js/imagesloaded.pkgd.js",
+	// "assets/js/imagesloaded.pkgd.js", NOTE: not really necessary, making page load feel slow
 	"assets/js/jquery.fitvids.js",
 	"assets/js/tipper.js",
 	"assets/js/swiper.min.js",
