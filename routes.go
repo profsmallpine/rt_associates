@@ -23,10 +23,11 @@ func buildRoutes(h handler) *httprouter.Router {
 	// Routes setup + middlewares injection.
 	router := httprouter.New()
 	routes := []route{
-		route{path: "/", method: http.MethodGet, handler: h.goHome},
+		{path: "/", method: http.MethodGet, handler: h.goHome},
 		// route{path: "/contact", method: http.MethodGet, handler: h.contact},
-		route{path: "/portfolio-rose", method: http.MethodGet, handler: h.portfolioRose},
-		route{path: "/portfolio-jim", method: http.MethodGet, handler: h.portfolioJim},
+		{path: "/portfolio-rose", method: http.MethodGet, handler: h.portfolioRose},
+		{path: "/portfolio-jim", method: http.MethodGet, handler: h.portfolioJim},
+		{path: "/portfolio-optimum", method: http.MethodGet, handler: h.portfolioOptimum},
 	}
 	for _, r := range routes {
 		router.Handler(r.method, r.path, chain(

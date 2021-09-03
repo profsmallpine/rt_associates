@@ -36,6 +36,12 @@ func (h *handler) portfolioJim(w http.ResponseWriter, r *http.Request) {
 	respond(h.Logger, w, r, "./tmpl/portfolio_jim.tmpl", data)
 }
 
+// portfolioJim is used for handling requests to "/portfolio-jims".
+func (h *handler) portfolioOptimum(w http.ResponseWriter, r *http.Request) {
+	data := map[string]interface{}{"bodyClass": "single single-post"}
+	respond(h.Logger, w, r, "./tmpl/portfolio_optimum.tmpl", data)
+}
+
 // respond is used to parse a base template.
 func respond(logger *log.Logger, w http.ResponseWriter, r *http.Request, layout string, data interface{}) {
 	// Parse static files.
