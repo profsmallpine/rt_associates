@@ -24,12 +24,6 @@ func (h *handler) goHome(w http.ResponseWriter, r *http.Request) {
 // 	respond(h.Logger, w, r, "./tmpl/contact.tmpl", data)
 // }
 
-// portfolioRose is used for handling requests to "/portfolio-ansley".
-func (h *handler) portfolioAnsley(w http.ResponseWriter, r *http.Request) {
-	data := map[string]interface{}{"bodyClass": "single single-post"}
-	respond(h.Logger, w, r, "./tmpl/portfolio_ansley.tmpl", data)
-}
-
 // portfolioRose is used for handling requests to "/portfolio-rose".
 func (h *handler) portfolioRose(w http.ResponseWriter, r *http.Request) {
 	data := map[string]interface{}{"bodyClass": "single single-post"}
